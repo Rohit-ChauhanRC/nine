@@ -1,0 +1,163 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: coral;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  z-index: 1;
+}
+
+.navbar__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  z-index: 1;
+}
+
+.navbar__logo {
+  /* margin-left: 50px; */
+  font-size: 2rem;
+  z-index: 1;
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.navbar__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.navbar__li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+.navbar__li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar__btn {
+  list-style: none;
+}
+.navbar__btn a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50px;
+  color: #fff;
+  background-color: orange;
+}
+
+.drop_down {
+  outline: none;
+  border: none;
+  /* visibility: hidden; */
+}
+
+.drop_down:hover {
+  visibility: visible;
+}
+
+.banner {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+}
+
+.banner__items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner__hero img {
+  height: 400px;
+  width: 100%;
+  margin-top: 20px;
+  /* margin-left: 50px; */
+  margin-right: 50px;
+}
+
+.banner__heading {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  /* margin-right: 50px; */
+}
+
+.banner__heading h1 {
+  font-size: 3rem;
+}
+.banner__heading p {
+  font-size: 1.8rem;
+}
+.banner__heading button {
+  font-size: 1.2rem;
+  background-color: orange;
+  /* outline: none; */
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.about_us {
+  height: 80vh;
+  background-color: #fff;
+}
+
+.about__banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__img img {
+  height: 400px;
+  margin: 50px;
+}
+
+.about__header {
+  /* justify-content: space-between; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+}
+.about_h {
+  justify-content: space-between;
+  display: block;
+  align-items: center;
+}
+
+.heading2 {
+  display: flex;
+}
+
+.services {
+  background-color: #fef8f5;
+  height: 80vh;
+}
